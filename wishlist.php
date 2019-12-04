@@ -608,7 +608,7 @@ if (isset($_GET['berry1'])) {
 					</div><br /><br />
 					<form method ="POST" action ="wishlist.php">
 					<p style="float:right"><input type="submit" class="btn btn-sm btn-primary" value="Clear Wishlist" name="cls"/></p>
-					<p style="float:right"><input type="submit" style="margin-right:10px;" class="btn btn-sm btn-primary" value="Go To Cart" name="shop"/></p>
+					<p style="float:right"><input type="submit" style="margin-right:10px;" class="btn btn-sm btn-primary" value="Go To Shop" name="shop"/></p>
 				
 									</form>
 				</div>
