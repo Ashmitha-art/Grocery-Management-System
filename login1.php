@@ -36,30 +36,36 @@ require_once 'dbconnect.php';
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="goto-here"style="background-color:white;" >
-    
-   
-    <!-- END nav -->
-    <div class ="row">
-    <div class ="col-9">
-    <img class="img-fluid" src="images/bg_100.jpg" style="width:100%;height:112.19%;"/>
-    </div>
-    <div class ="col "style="margin-top:12%;margin-left:2%;margin-right:2.5%;margin-bottom:10%;border-radius:25px;background-color:black;border:4px solid rgb(129,174,64);" >
-    
-    <form method = "POST" action="register.php"style="text-align:center;">
-    <h2 style="color:rgb(129,174,64);">Register </h2>
-    <i class="icon-male"></i>&nbsp;&nbsp;<input type="text" name="n"  style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);" pattern="([A-zÀ-ž\s]){2,}"
-                                        required><br><br>
-                                        <i class="icon-user "></i>&nbsp;&nbsp;<input type="text" name="e" 
-                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);"required><br><br>
-                                        <i class="icon-key"></i>&nbsp;&nbsp;<input type="password" name="p" style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);"  required><br><br>
-                                    <h6 style="color:white;">Existing User?<a href="./login.php"> Log In</a></h6>
-                                    <input type="submit" class="btn btn-md btn-primary" name="submit"
-                                        value="Register"><br><br>
 
-                                </form>
-                            </div>
-                            </div>
+<body class="goto-here" style="background-color:white;">
+
+
+    <!-- END nav -->
+    <div class="row">
+        <div class="col-9">
+            <img class="img-fluid" src="images/bg_100.jpg" style="width:100%;height:112.19%;" />
+        </div>
+        <div class="col "
+            style="margin-top:12%;margin-left:2%;margin-right:2.5%;margin-bottom:10%;border-radius:25px;background-color:black;border:4px solid rgb(129,174,64);">
+
+            <form method="POST" action="register.php" style="text-align:center;">
+                <h2 style="color:rgb(129,174,64);">Register </h2>
+                <i class="icon-male"></i>&nbsp;&nbsp;<input type="text" name="n"
+                    style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);"
+                    pattern="([A-zÀ-ž\s]){2,}" required><br><br>
+                <i class="icon-user "></i>&nbsp;&nbsp;<input type="text" name="e"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                    style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);"
+                    required><br><br>
+                <i class="icon-key"></i>&nbsp;&nbsp;<input type="password" name="p"
+                    style="background-color:transparent !important;border:none !important;border-bottom:2px solid white !important;color:rgb(129,174,64);"
+                    required><br><br>
+                <h6 style="color:white;">Existing User?<a href="./login.php"> Log In</a></h6>
+                <input type="submit" class="btn btn-md btn-primary" name="submit" value="Register"><br><br>
+
+            </form>
+        </div>
+    </div>
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">

@@ -305,10 +305,10 @@ if (isset($_GET['berry'])) {
 					<li class="nav-item cta cta-colored"><a href="cart.php" class="nav-link"><span
 								class="icon-shopping_cart"></span>[<?php echo $_SESSION['id'];?>]</a></li>
 					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false"><?php echo $_SESSION['user'];?></a>
-            <div class="dropdown-menu" aria-labelledby="dropdown04">
-             <a class="dropdown-item" href="logout.php?logout">Log Out</a></div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['user'];?></a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item" href="logout.php?logout">Log Out</a></div>
 					</li>
 
 				</ul>
@@ -383,12 +383,12 @@ if (isset($_GET['berry'])) {
 									</td>
 									 ';
 										?>
-										<?php 
+								<?php 
 										
 										echo'
 										
 									<td class="total">₹ ';?><?php echo $q1;?>
-									<?php 
+								<?php 
 									echo '</td>
 									</tr>
 								<!-- END TR-->';
@@ -400,9 +400,9 @@ if (isset($_GET['berry'])) {
 								$_SESSION['cost1'] = $q1; 
 								}
 									?>
-									
-									
-<?php
+
+
+								<?php
                                     if(isset($_SESSION['ca']))
                                     {
 										
@@ -441,7 +441,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -458,9 +458,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost2'] = $q2; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['ga']))
                                     {
 									
@@ -500,7 +500,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -517,9 +517,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost3'] = $q3; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['ap']))
                                     {
 										
@@ -558,12 +558,12 @@ if (isset($_GET['berry'])) {
 									</td>
 									 ';
 										?>
-										<?php 
+								<?php 
 										
 										echo'
 										
 									<td class="total">₹ ';?><?php echo $q4;?>
-									<?php 
+								<?php 
 									echo '</td>
 									</tr>
 								<!-- END TR-->';
@@ -575,9 +575,9 @@ if (isset($_GET['berry'])) {
 								$_SESSION['cost4'] = $q4; 
 								}
 									?>
-									
-									
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['gb']))
                                     {
 
@@ -617,12 +617,12 @@ if (isset($_GET['berry'])) {
 									</td>
 									 ';
 										?>
-										<?php 
+								<?php 
 										
 										echo'
 										
 									<td class="total">₹ ';?><?php echo $q5;?>
-									<?php 
+								<?php 
 									echo '</td>
 									</tr>
 								<!-- END TR-->';
@@ -634,9 +634,9 @@ if (isset($_GET['berry'])) {
 								$_SESSION['cost5'] = $q5; 
 								}
 									?>
-									
-									
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['st']))
                                     {
 									
@@ -675,7 +675,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -692,9 +692,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost6'] = $q6; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['pc']))
                                     {
 										
@@ -733,7 +733,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -750,9 +750,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost7'] = $q7; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
 
                                     if(isset($_SESSION['on']))
                                     {
@@ -792,12 +792,12 @@ if (isset($_GET['berry'])) {
 									</td>
 									 ';
 										?>
-										<?php 
+								<?php 
 										
 										echo'
 										
 									<td class="total">₹ ';?><?php echo $q8;?>
-									<?php 
+								<?php 
 									echo '</td>
 									</tr>
 								<!-- END TR-->';
@@ -809,10 +809,10 @@ if (isset($_GET['berry'])) {
 								$_SESSION['cost8'] = $q8; 
 								}
 									?>
-									
-									
-                                
-                                <?php
+
+
+
+								<?php
                                     if(isset($_SESSION['to']))
                                     {
 										
@@ -851,7 +851,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -868,9 +868,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost9'] = $q9; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['br']))
                                     {
 									
@@ -909,7 +909,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -926,9 +926,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost10'] = $q10; 
 							}
 								?>
-								
-								
-                                <?php
+
+
+								<?php
                                     if(isset($_SESSION['bp']))
                                     {
 										
@@ -968,7 +968,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -985,9 +985,9 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost11'] = $q11; 
 							}
 								?>
-								
-								
-                                 <?php
+
+
+								<?php
                                     if(isset($_SESSION['ju']))
                                     {
 									
@@ -1026,7 +1026,7 @@ if (isset($_GET['berry'])) {
 								</td>
 								 ';
 									?>
-									<?php 
+								<?php 
 									
 									echo'
 									
@@ -1043,18 +1043,20 @@ if (isset($_GET['berry'])) {
 							$_SESSION['cost12'] = $q12; 
 							}
 								?>
-								
-								
+
+
 							</tbody>
 						</table>
 					</div>
 					<br />
-					<form method ="POST" action ="cart.php">
-					<p style="float:right"><input type="submit" class="btn btn-sm btn-primary" value="Clear Cart" name="cls"/></p>
-					<p style="float:right"><input type="submit" style="margin-right:10px;" class="btn btn-sm btn-primary" value="Go To Shop" name="shop"/></p>
-				
-									</form>
-								
+					<form method="POST" action="cart.php">
+						<p style="float:right"><input type="submit" class="btn btn-sm btn-primary" value="Clear Cart"
+								name="cls" /></p>
+						<p style="float:right"><input type="submit" style="margin-right:10px;"
+								class="btn btn-sm btn-primary" value="Go To Shop" name="shop" /></p>
+
+					</form>
+
 				</div>
 			</div>
 			<div class="row justify-content-end">
@@ -1065,9 +1067,10 @@ if (isset($_GET['berry'])) {
 						<form action="cart.php" method="POST" class="info">
 							<div class="form-group">
 								<label for="">Coupon code</label>
-								<input type="text" name="code" class="form-control text-left px-3" placeholder=""required>
+								<input type="text" name="code" class="form-control text-left px-3" placeholder=""
+									required>
 							</div>
-						
+
 					</div>
 					<p><input name="coupon" type="submit" value="Apply Coupon" class=" btn btn-primary submit px-3"></p>
 					</form>
@@ -1078,21 +1081,21 @@ if (isset($_GET['berry'])) {
 						<p>Enter your destination to get a shipping estimate</p>
 						<form action="cart.php" method="POST" class="info">
 							<div class="form-group">
-							
-		            		<label for="country">State / Country</label>
-		            		<div class="select-wrap">
-		                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-		                  <select name="coun" id="" class="form-control" required>
-		                  	<option value="France">France</option>
-		                    <option value="India">India</option>
-		                    
-		                    <option value="Hongkong">Hongkong</option>
-		                    <option value="Japan">Japan</option>
-							
-		                  </select>
-		                </div>
-		            	</div>
-		          
+
+								<label for="country">State / Country</label>
+								<div class="select-wrap">
+									<div class="icon"><span class="ion-ios-arrow-down"></span></div>
+									<select name="coun" id="" class="form-control" required>
+										<option value="France">France</option>
+										<option value="India">India</option>
+
+										<option value="Hongkong">Hongkong</option>
+										<option value="Japan">Japan</option>
+
+									</select>
+								</div>
+							</div>
+
 							<div class="form-group">
 								<label for="country">State/Province</label>
 								<input type="text" class="form-control text-left px-3" placeholder="">
@@ -1105,9 +1108,9 @@ if (isset($_GET['berry'])) {
 							if(isset($success1))
 					echo '<span style="color:red;font-size:1rem;">'.$success1.'</span>';?>
 					</div>
-					
+
 					<p><input name="estimate" type="submit" value="Estimate" class=" btn btn-primary submit px-3"></p>
-					
+
 				</div>
 				</form>
 				<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
@@ -1126,7 +1129,7 @@ if (isset($_GET['berry'])) {
 							<span>₹0.00</span>
 						</p>
 						<p class="d-flex">
-						<?php if($_SESSION['r'])
+							<?php if($_SESSION['r'])
 		{
 			if($_SESSION['cost']>50)
 			{
@@ -1171,17 +1174,18 @@ if (isset($_GET['berry'])) {
 					<span>Get e-mail updates about our latest shops and special offers</span>
 				</div>
 				<div class="col-md-6 d-flex align-items-center">
-					<form  method = "POST" action="#" class="subscribe-form">
+					<form method="POST" action="#" class="subscribe-form">
 						<div class="form-group d-flex">
-							<input type="email" name ="email" class="form-control" placeholder="Enter email address" required>
-							<input type="submit" name ="submit" value="Subscribe" class="submit px-3">
+							<input type="email" name="email" class="form-control" placeholder="Enter email address"
+								required>
+							<input type="submit" name="submit" value="Subscribe" class="submit px-3">
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer class="ftco-footer ftco-section"style="background-color:rgb(129,174,69,0.9);">
+	<footer class="ftco-footer ftco-section" style="background-color:rgb(129,174,69,0.9);">
 		<div class="container bg-light">
 			<div class="row">
 				<div class="mouse">
@@ -1206,11 +1210,11 @@ if (isset($_GET['berry'])) {
 					<div class="ftco-footer-widget mb-4 ml-md-5">
 						<h2 class="ftco-heading-2">Menu</h2>
 						<ul class="list-unstyled">
-						<li><a href="shop.php" class="py-2 d-block">Shop</a></li>
+							<li><a href="shop.php" class="py-2 d-block">Shop</a></li>
 							<li><a href="about.php" class="py-2 d-block">About</a></li>
 							<li><a href="cart.php" class="py-2 d-block">Cart</a></li>
 							<li><a href="contact.php" class="py-2 d-block">Contact Us</a></li>
-							</ul>
+						</ul>
 					</div>
 				</div>
 

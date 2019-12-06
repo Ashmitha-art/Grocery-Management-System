@@ -91,10 +91,10 @@ if(!isset($_SESSION['user']))
 					<li class="nav-item cta cta-colored"><a href="cart.php" class="nav-link"><span
 								class="icon-shopping_cart"></span>[<?php echo $_SESSION['id'];?>]</a></li>
 					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false"><?php echo $_SESSION['user'];?></a>
-            <div class="dropdown-menu" aria-labelledby="dropdown04">
-             <a class="dropdown-item" href="logout.php?logout">Log Out</a>	</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['user'];?></a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item" href="logout.php?logout">Log Out</a> </div>
 					</li>
 
 				</ul>
@@ -159,15 +159,15 @@ if(!isset($_SESSION['user']))
 							</div>
 						</div>
 						<div class="w-100"></div>
-					
+
 						<div class="w-100"></div>
 						<div class="col-md-12">
 							<p style="color: #000;">600 kg available</p>
 						</div>
-                    </div>
-                    <form method='POST' action='product-single.php'>
-                    <p><input type="submit" name="add" value="Add to Cart" class=" btn btn-primary submit px-3"></p>
-</form>
+					</div>
+					<form method='POST' action='product-single.php'>
+						<p><input type="submit" name="add" value="Add to Cart" class=" btn btn-primary submit px-3"></p>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -184,7 +184,7 @@ if(!isset($_SESSION['user']))
 		</div>
 		<div class="container">
 			<div class="row">
-			<div class="col-md-6 col-lg-3 ftco-animate">
+				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="product">
 						<a href="#" class="img-prod"><img class="img-fluid" src="images/product-10.jpg"
 								alt="Colorlib Template">
@@ -203,10 +203,12 @@ if(!isset($_SESSION['user']))
 										class="add-to-cart d-flex justify-content-center align-items-center text-center">
 										<span><i class="ion-ios-menu"></i></span>
 									</a>
-									<a href="cart.php?ap" class="buy-now d-flex justify-content-center align-items-center mx-1">
+									<a href="cart.php?ap"
+										class="buy-now d-flex justify-content-center align-items-center mx-1">
 										<span><i class="ion-ios-cart"></i></span>
 									</a>
-									<a href="wishlist.php?a1" class="heart d-flex justify-content-center align-items-center ">
+									<a href="wishlist.php?a1"
+										class="heart d-flex justify-content-center align-items-center ">
 										<span><i class="ion-ios-heart"></i></span>
 									</a>
 								</div>
@@ -233,10 +235,12 @@ if(!isset($_SESSION['user']))
 										class="add-to-cart d-flex justify-content-center align-items-center text-center">
 										<span><i class="ion-ios-menu"></i></span>
 									</a>
-									<a href="cart.php?st" class="buy-now d-flex justify-content-center align-items-center mx-1">
+									<a href="cart.php?st"
+										class="buy-now d-flex justify-content-center align-items-center mx-1">
 										<span><i class="ion-ios-cart"></i></span>
 									</a>
-									<a href="wishlist.php?b1" class="heart d-flex justify-content-center align-items-center ">
+									<a href="wishlist.php?b1"
+										class="heart d-flex justify-content-center align-items-center ">
 										<span><i class="ion-ios-heart"></i></span>
 									</a>
 								</div>
@@ -263,10 +267,12 @@ if(!isset($_SESSION['user']))
 										class="add-to-cart d-flex justify-content-center align-items-center text-center">
 										<span><i class="ion-ios-menu"></i></span>
 									</a>
-									<a href="cart.php?gb" class="buy-now d-flex justify-content-center align-items-center mx-1">
+									<a href="cart.php?gb"
+										class="buy-now d-flex justify-content-center align-items-center mx-1">
 										<span><i class="ion-ios-cart"></i></span>
 									</a>
-									<a href="wishlist.php?gb1" class="heart d-flex justify-content-center align-items-center ">
+									<a href="wishlist.php?gb1"
+										class="heart d-flex justify-content-center align-items-center ">
 										<span><i class="ion-ios-heart"></i></span>
 									</a>
 								</div>
@@ -293,10 +299,12 @@ if(!isset($_SESSION['user']))
 										class="add-to-cart d-flex justify-content-center align-items-center text-center">
 										<span><i class="ion-ios-menu"></i></span>
 									</a>
-									<a href="cart.php?pc" class="buy-now d-flex justify-content-center align-items-center mx-1">
+									<a href="cart.php?pc"
+										class="buy-now d-flex justify-content-center align-items-center mx-1">
 										<span><i class="ion-ios-cart"></i></span>
 									</a>
-									<a href="wishlist.php?p1" class="heart d-flex justify-content-center align-items-center ">
+									<a href="wishlist.php?p1"
+										class="heart d-flex justify-content-center align-items-center ">
 										<span><i class="ion-ios-heart"></i></span>
 									</a>
 								</div>
@@ -315,17 +323,18 @@ if(!isset($_SESSION['user']))
 					<span>Get e-mail updates about our latest shops and special offers</span>
 				</div>
 				<div class="col-md-6 d-flex align-items-center">
-					<form  method = "POST" action="#" class="subscribe-form">
+					<form method="POST" action="#" class="subscribe-form">
 						<div class="form-group d-flex">
-							<input type="email" name ="email" class="form-control" placeholder="Enter email address" required>
-							<input type="submit" name ="submit" value="Subscribe" class="submit px-3">
+							<input type="email" name="email" class="form-control" placeholder="Enter email address"
+								required>
+							<input type="submit" name="submit" value="Subscribe" class="submit px-3">
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer class="ftco-footer ftco-section"style="background-color:rgb(129,174,69,0.9);">
+	<footer class="ftco-footer ftco-section" style="background-color:rgb(129,174,69,0.9);">
 		<div class="container bg-light">
 			<div class="row">
 				<div class="mouse">
@@ -350,11 +359,11 @@ if(!isset($_SESSION['user']))
 					<div class="ftco-footer-widget mb-4 ml-md-5">
 						<h2 class="ftco-heading-2">Menu</h2>
 						<ul class="list-unstyled">
-						<li><a href="shop.php" class="py-2 d-block">Shop</a></li>
+							<li><a href="shop.php" class="py-2 d-block">Shop</a></li>
 							<li><a href="about.php" class="py-2 d-block">About</a></li>
 							<li><a href="cart.php" class="py-2 d-block">Cart</a></li>
 							<li><a href="contact.php" class="py-2 d-block">Contact Us</a></li>
-							</ul>
+						</ul>
 					</div>
 				</div>
 

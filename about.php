@@ -1,4 +1,3 @@
-
 <?php
 ob_start();
 session_start();
@@ -90,13 +89,13 @@ if(!isset($_SESSION['user']))
           <li class="nav-item active"><a href="about.php" class="nav-link">About</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item cta cta-colored"><a href="cart.php" class="nav-link"><span
-								class="icon-shopping_cart"></span>[<?php echo $_SESSION['id'];?>]</a></li>
-					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                class="icon-shopping_cart"></span>[<?php echo $_SESSION['id'];?>]</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false"><?php echo $_SESSION['user'];?></a>
             <div class="dropdown-menu" aria-labelledby="dropdown04">
-             <a class="dropdown-item" href="logout.php?logout">Log Out</a>	</div>
-					</li>
+              <a class="dropdown-item" href="logout.php?logout">Log Out</a> </div>
+          </li>
 
         </ul>
       </div>
@@ -117,7 +116,7 @@ if(!isset($_SESSION['user']))
 
   <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
     <div class="container">
-    <br /> <br />
+      <br /> <br />
       <div class="row">
         <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center"
           style="background-image: url(images/about.jpg);">
@@ -147,23 +146,23 @@ if(!isset($_SESSION['user']))
   </section>
 
   <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
-		<div class="container py-4">
-			<div class="row d-flex justify-content-center py-5">
-				<div class="col-md-6">
-					<h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
-					<span>Get e-mail updates about our latest shops and special offers</span>
-				</div>
-				<div class="col-md-6 d-flex align-items-center">
-					<form  method = "POST" action="#" class="subscribe-form">
-						<div class="form-group d-flex">
-							<input type="email" name ="email" class="form-control" placeholder="Enter email address" required>
-							<input type="submit" name ="submit" value="Subscribe" class="submit px-3">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container py-4">
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-6">
+          <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
+          <span>Get e-mail updates about our latest shops and special offers</span>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <form method="POST" action="#" class="subscribe-form">
+            <div class="form-group d-flex">
+              <input type="email" name="email" class="form-control" placeholder="Enter email address" required>
+              <input type="submit" name="submit" value="Subscribe" class="submit px-3">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);">
     <div class="container">
@@ -208,91 +207,91 @@ if(!isset($_SESSION['user']))
     </div>
   </section>
   <section class="ftco-section testimony-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 heading-section ftco-animate text-center">
-					<span class="subheading">Testimony</span>
-					<h2 class="mb-4">Our satisfied customers say</h2>
-				</div>
-			</div>
-			<div class="row ftco-animate">
-				<div class="col-md-12">
-					<div class="carousel-testimony owl-carousel">
-						<div class="item">
-							<div class="testimony-wrap p-4 pb-5">
-								<div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="icon-quote-left"></i>
-									</span>
-								</div>
-								<div class="text text-center">
-									<p class="mb-5 pl-4 line">Grocer is my go-to place!</p>
-									<p class="name">Rahul Rao</p>
-									<span class="position">Manager</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap p-4 pb-5">
-								<div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="icon-quote-left"></i>
-									</span>
-								</div>
-								<div class="text text-center">
-									<p class="mb-5 pl-4 line">Wonderful experience.</p>
-									<p class="name">Mahesh Singh</p>
-									<span class="position">Teacher</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap p-4 pb-5">
-								<div class="user-img mb-5" style="background-image: url(images/person_4.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="icon-quote-left"></i>
-									</span>
-								</div>
-								<div class="text text-center">
-									<p class="mb-5 pl-4 line">Best place for groceries online!</p>
-									<p class="name">Ashley Buttons</p>
-									<span class="position">Consultant</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap p-4 pb-5">
-								<div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="icon-quote-left"></i>
-									</span>
-								</div>
-								<div class="text text-center">
-									<p class="mb-5 pl-4 line">Very affordable and super fast.</p>
-									<p class="name">Gary Smith</p>
-									<span class="position">Web Developer</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap p-4 pb-5">
-								<div class="user-img mb-5" style="background-image: url(images/person_5.jpeg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="icon-quote-left"></i>
-									</span>
-								</div>
-								<div class="text text-center">
-									<p class="mb-5 pl-4 line">Fresh and very organic.</p>
-									<p class="name">Prajwal P</p>
-									<span class="position">System Analyst</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <span class="subheading">Testimony</span>
+          <h2 class="mb-4">Our satisfied customers say</h2>
+        </div>
+      </div>
+      <div class="row ftco-animate">
+        <div class="col-md-12">
+          <div class="carousel-testimony owl-carousel">
+            <div class="item">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text text-center">
+                  <p class="mb-5 pl-4 line">Grocer is my go-to place!</p>
+                  <p class="name">Rahul Rao</p>
+                  <span class="position">Manager</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text text-center">
+                  <p class="mb-5 pl-4 line">Wonderful experience.</p>
+                  <p class="name">Mahesh Singh</p>
+                  <span class="position">Teacher</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-5" style="background-image: url(images/person_4.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text text-center">
+                  <p class="mb-5 pl-4 line">Best place for groceries online!</p>
+                  <p class="name">Ashley Buttons</p>
+                  <span class="position">Consultant</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text text-center">
+                  <p class="mb-5 pl-4 line">Very affordable and super fast.</p>
+                  <p class="name">Gary Smith</p>
+                  <span class="position">Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap p-4 pb-5">
+                <div class="user-img mb-5" style="background-image: url(images/person_5.jpeg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text text-center">
+                  <p class="mb-5 pl-4 line">Fresh and very organic.</p>
+                  <p class="name">Prajwal P</p>
+                  <span class="position">System Analyst</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <section class="ftco-section bg-light">
@@ -346,58 +345,58 @@ if(!isset($_SESSION['user']))
     </div>
   </section>
 
-	<footer class="ftco-footer ftco-section" style="background-color:rgb(129,174,69,0.9);">
-		<div class="container bg-light">
-			<div class="row">
-				<div class="mouse">
-					<a href="#" class="mouse-icon">
-						<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
-					</a>
-				</div>
-			</div>
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Grocer</h2>
+  <footer class="ftco-footer ftco-section" style="background-color:rgb(129,174,69,0.9);">
+    <div class="container bg-light">
+      <div class="row">
+        <div class="mouse">
+          <a href="#" class="mouse-icon">
+            <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+          </a>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Grocer</h2>
 
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4 ml-md-5">
-						<h2 class="ftco-heading-2">Menu</h2>
-						<ul class="list-unstyled">
-							<li><a href="shop.php" class="py-2 d-block">Shop</a></li>
-							<li><a href="about.php" class="py-2 d-block">About</a></li>
-							<li><a href="cart.php" class="py-2 d-block">Cart</a></li>
-							<li><a href="contact.php" class="py-2 d-block">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Menu</h2>
+            <ul class="list-unstyled">
+              <li><a href="shop.php" class="py-2 d-block">Shop</a></li>
+              <li><a href="about.php" class="py-2 d-block">About</a></li>
+              <li><a href="cart.php" class="py-2 d-block">Cart</a></li>
+              <li><a href="contact.php" class="py-2 d-block">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
 
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
-										View, Bangalore, India</span></li>
-								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+91
-											9449101299</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope"></span><span
-											class="text">grocers@gmail.com</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
+                    View, Bangalore, India</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91
+                      9449101299</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">grocers@gmail.com</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		</div>
-	</footer>
+    </div>
+  </footer>
 
 
 
